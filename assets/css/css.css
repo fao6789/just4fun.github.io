@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.back-ground {
+  text-align: center;
+  border: 1px solid #aeaeaeae;
+  margin: 10rem;
+  padding: 1rem;
+}
+
+.back-ground .title {
+  font-size: 5rem;
+  font-style: italic;
+  color: rgba(175, 47, 47, 0.15);
+}
+
+.back-ground .form .form-input input {
+  border: none;
+}
+
+.back-ground .form .form-input input:focus {
+  outline: none;
+}
+/*# sourceMappingURL=css.css.map */

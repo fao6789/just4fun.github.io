@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.back-ground{
+    text-align: center;
+    border:1px solid #aeaeaeae;
+    margin: 10rem;
+    padding: 1rem;
+    .title{
+        font-size: 5rem;
+        font-style:italic;
+        color: rgba(175, 47, 47, 0.15);
+    }
+    .form{
+        .form-input{
+            input{
+                border:none;
+                &:focus{
+                    outline: none;
+                }
+            }
+        }
+    }
+}
